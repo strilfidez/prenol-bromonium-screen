@@ -1,5 +1,6 @@
 #variable-theory.awk by FS 2/5/2016
 #Usage: awk -f variable-theory.awk template
+#This program works as of 2/5/2016
 
 BEGIN{
 #Input section: 
@@ -24,12 +25,13 @@ END{
 #File creation section:
 	for(i in theory){
 		for(j in basis){
-			print routeCard1 theory[i] "/" basis[j] routeCard2 \
-			> input/ FILENAME "-" theory[i] "-" basis[j] ".gjf"
+			result=sprintf("%s%s/%s%s%s-%s\n",routeCard1, theory[i],basis[j],routeCard2,theory[i],basis[j])
+			file = sprintf("input/%s-%s-%s.gjf", FILENAME, theory[i], basis[j])
+			gsub(/*/,"",file)
 			for (k in template_coord) {
-				print template_coord[k] \
-				>> input/ FILENAME "-" theory[i] "-" basis[j] ".gjf"
+				result = result template_coord[k] "\n"
 			}
+			print result >> file
 		}
 	}
 }
