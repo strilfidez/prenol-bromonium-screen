@@ -1,4 +1,5 @@
 #var-input.awk
+#Abandoned project. Reason: too difficult, too general.
 
 #Usage: awk -f var-input.awk theory.txt file-var.gjf 
 
