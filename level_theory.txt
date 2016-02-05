@@ -1,0 +1,6 @@
+b3lyp/6-31g*
+b3lyp/cc-pvdz
+m062x/6-31g*
+m062x/cc-pvdz
+pbe1pbe/6-31g*
+pbe1pbe/cc-pvdz

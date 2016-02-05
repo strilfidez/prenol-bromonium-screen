@@ -1,6 +1,3 @@
-# prenol-bromonium-screen
-Sample input files (3) (optimized on gaussview) present here for reference.
-Output files should not be stored here due to size.
-Scripts coming soon.
+prenol-bromonium-screen:
 
--Fritz 2/4/2016
+-Fritz 2/5/2016
