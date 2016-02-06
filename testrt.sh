@@ -12,3 +12,5 @@ for i in $theory; do
         echo $i FAILED
     fi
 done
+
+rm temp.txt

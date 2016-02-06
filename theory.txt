@@ -1,0 +1,38 @@
+#p opt tpsstpss cc-pvdz
+#p opt m06 empiricaldispersion=gd3 cc-pvdz
+#p opt bmk empiricaldispersion=gd3bj cc-pvdz
+#p opt b1b95 cc-pvdz
+#p opt vsxc cc-pvdz
+#p opt m062x empiricaldispersion=gd3 cc-pvdz
+#p opt bmk cc-pvdz
+#p opt b3lyp empiricaldispersion=gd3bj cc-pvdz
+#p opt wb97x cc-pvdz
+#p opt m06hf empiricaldispersion=gd3 cc-pvdz
+#p opt cam-b3lyp cc-pvdz
+#p opt b3pw91 cc-pvdz
+#p opt wb97xd cc-pvdz
+#p opt m06l empiricaldispersion=gd3 cc-pvdz
+#p opt b3pw91 empiricaldispersion=gd3bj cc-pvdz
+#p opt b971 cc-pvdz
+#p opt b972 cc-pvdz
+#p opt b97d cc-pvdz
+#p opt cam-b3lyp empiricaldispersion=gd3bj cc-pvdz
+#p opt b97d3 cc-pvdz
+#p opt mpw1lyp cc-pvdz
+#p opt hcth cc-pvdz
+#p opt b98 cc-pvdz
+#p opt mpw1pw91 cc-pvdz
+#p opt hf cc-pvdz
+#p opt bhandh cc-pvdz
+#p opt pbe1pbe empiricaldispersion=gd3bj cc-pvdz
+#p opt hseh1pbe cc-pvdz
+#p opt bhandhlyp cc-pvdz
+#p opt b3lyp cc-pvdz
+#p opt pbeh1pbe cc-pvdz
+#p opt lc-wpbe empiricaldispersion=gd3bj cc-pvdz
+#p opt blyp empiricaldispersion=gd3bj cc-pvdz
+#p opt m062x cc-pvdz
+#p opt tpsstpss empiricaldispersion=gd3bj cc-pvdz
+#p opt lc-wpbe cc-pvdz
+#p opt blyp cc-pvdz
+#p opt pbe1pbe cc-pvdz
