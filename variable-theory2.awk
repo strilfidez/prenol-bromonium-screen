@@ -1,7 +1,7 @@
-#variable-theory.awk by FS 2/5/2016
+#variable-theory2.awk, edited by Eugene 2/5/2016
 #Usage: awk -f variable-theory.awk template
 #Template belongs in the same directory.
-#This program creates many .gjf files in the /input directory. 
+#This program prints the route cards of all files into the console.
 
 BEGIN{
 #Input section: 

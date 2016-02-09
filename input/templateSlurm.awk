@@ -15,7 +15,8 @@ BEGIN{fileCount=0}
 #Read the filenames of all other files into an array
 (NR!=FNR && FNR==1){
 	fileCount++
-	files[fileCount]=FILENAME
+	name = substr(FILENAME, 0, length(FILENAME)-4)
+	files[fileCount]=name
 }
 
 #Print the new template. Note: No logs generated, output files in same directory.

@@ -1,0 +1,4 @@
+1 Hartree = 627.15 kcal/mol
+1 Hartree = 2625.5 kJ/mol
+1 Hartree = 27.2116 eV
+1 Hartree = 4.3597482*10-18 J/particle

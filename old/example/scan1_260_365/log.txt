@@ -1,0 +1,18 @@
+*************************************
+Scratch is:  /local-scratch/fseidl/7348639/fseidl_scan1_260_365
+Running on host:
+sh-1-3.local
+Job scan1_260_365 started at...
+Fri Feb  5 12:53:54 PST 2016
+
+Job finished at:
+Fri Feb  5 13:53:01 PST 2016
+
+Job terminated normally...
+
+Final energy:
+SCF Done: E(RM062X) = -5065.81725911 A.U. after 8 cycles
+
+No frequency analysis was performed.
+*************************************
+

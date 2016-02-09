@@ -1,0 +1,7 @@
+[fseidl@sherlock-ln02 /share/PI/nburns]$ chmod a+rwx fritz
+[fseidl@sherlock-ln02 /share/PI/nburns]$ find ./fritz/* -exec chmod a+rwx {} \;
+
+
+search for failed jobs:
+
+find ./* -name "*.out" | xargs grep termination | grep -v Normal

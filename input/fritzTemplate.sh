@@ -8,7 +8,7 @@
 
 #SBATCH --mem=48000  # memory per node in MB (see also --mem-per-cpu)
 
-#SBATCH -t 720 # expected runtime in minutes
+#SBATCH -t 2880 # expected runtime in minutes
 
 #SBATCH -J g09_fritzJob # name of this job
 

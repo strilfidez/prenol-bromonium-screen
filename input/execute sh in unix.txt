@@ -1,3 +1,0 @@
-chmod a+rwx filename
-
-dos2unix -o filename

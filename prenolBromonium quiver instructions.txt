@@ -1,0 +1,13 @@
+pipe all the output to a file
+[2/8/16, 8:59 PM] Eugene Kwan (ekwan16@gmail.com): and grep out the lines you need
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): use awk to convert to the correct format
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): you might want to use bash to check both files exist before running a job
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): and whether they terminated correctly
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): you can use "grep -c" to count the occurrences
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): to put it into a variable, do something like
+[2/8/16, 9:00 PM] Eugene Kwan (ekwan16@gmail.com): normal_terminations = `grep -c "Normal termination" $i`
+[2/8/16, 9:01 PM] Eugene Kwan (ekwan16@gmail.com): where that's a "backtick"
+[2/8/16, 9:01 PM] Eugene Kwan (ekwan16@gmail.com): to check if a file exists, do something like if [ -e $i ]; then...fi
+[2/8/16, 9:02 PM] Eugene Kwan (ekwan16@gmail.com): you can also use $? to check whether something runs correctly or not
+[2/8/16, 9:02 PM] Eugene Kwan (ekwan16@gmail.com): this is the "exit code"
+[2/8/16, 9:02 PM] Eugene Kwan (ekwan16@gmail.com): you get 0 for success, 1 for failure
